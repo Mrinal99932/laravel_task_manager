@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bab8b8;
+}
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+main {
+    max-width: 1400px;
+    margin: 20px auto;
+}
+.task-list {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    word-wrap: break-word;
+}
+th {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+td {
+    text-align: left;
+}
+.btn-dlt {
+    background-color: rgb(164, 4, 4);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-edit {
+    background-color: rgb(0, 166, 3);
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-dlt:hover{
+    background-color: rgb(98, 2, 2);
+}
+.btn-edit:hover{
+    background-color: rgb(2, 93, 28);
+}
+.btn-add {
+    background-color: rgb(77, 151, 3);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn-add:hover{
+    background-color: rgb(41, 52, 44);
+}
+.success-message{
+    padding: 20px;
+    background-color: burlywood;
+}
+.divsort {
+    display:inline-block;
+    margin-bottom: 10px;
+}
+form select {
+    padding: 5px;
+}
+form label {
+    padding: 5px;
+}
+form button {
+    padding: 5px;
+    background-color: #007bff;
+    cursor:pointer;
+    color: white;
+}
+form button:hover {
+    background-color: #0056b3;
+}
+.empty {
+    text-align: center;
+    background-color: rgb(163, 252, 223);
+    padding: 20px;
+    border-radius: 5px;
+}
+.action {
+    background-color: rgb(254, 169, 169);
+    min-width: 110px;
+}
+.titlespace {
+    max-width: 400px;
+    min-width: 399px;
+}
+.footer {
+    background-color:#007bff ;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+.footermark {
+    text-align: bottom;
+    color: white;
+    text-align: center;
+}
